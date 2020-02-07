@@ -1,3 +1,38 @@
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
+/*COMMIT BEFORE DOING ANYTHING ELSE*/
 body {
     padding-top: 5rem;
+    /*padding-left: 10rem;*/
+}
+
+.container{
+  display: grid;
+  /*grid-template-columns: 20% 60% 20%;*/
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+.lead{
+  text-align: center;
+  background: #89cff0;
+  padding-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+}
+
+.lead img{
+  border-radius: 50%;
+}
+
+.who{
+  background: grey;
 }

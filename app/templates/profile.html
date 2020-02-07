@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div class="lead">
+      <img src="{{ url_for('static',filename='propic.png') }}">
+      <h2 class="head">Christopher Robinson</h2>
+      <div class="oinfo">
+        <p> @MidoriRobin </p>
+        <p> Kingston, Jamaica </p>
+        <p> Date Joined: {{ date }} </p>
+      </div>
+    </div>
+    <div class="who">
+      <p>I am a very willing and detail oriented student of computer science, my interest span
+          Game Development, Artificial Intelligence, and General Purpose Mobile App Development
+          Shoot me an email or message my socials if you're interested in working on something with me</p>
+    </div>
+    <div class="community">
+      <p>Following follower stuff goes here</p>
+    </div>
+{% endblock %}

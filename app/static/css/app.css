@@ -18,12 +18,12 @@ body {
   grid-template-rows: 1fr 2fr 2fr 1fr;
 }
 
-.lead{
+div.lead{
   text-align: center;
   background: #89cff0;
   padding-bottom: 5rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 300px;
+  margin-right: 300px;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 40px;
@@ -33,6 +33,70 @@ body {
   border-radius: 50%;
 }
 
-.who{
+div.who{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
   background: grey;
+  padding-bottom: 5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: auto;
 }
+
+/*div.vanis{
+  display: grid;
+  grid-template-rows: auto auto;
+  list-style: none;
+}
+
+div.vnum{
+  list-style: none;
+  float:left;
+  text-align: center;
+  padding: 15px;
+}
+
+div.vdesx{
+  list-style-type: none;
+  float:left;
+  text-align: center;
+  padding: 15px;
+}*/
+
+div.vanis{
+  /*background-color: #333333;*/
+  float: right;
+}
+
+table{
+  /*background-color: white;*/
+  text-align: center;
+  margin: auto;
+}
+
+th,td{
+  padding: 5px;
+  text-align: center;
+}
+
+button{
+  color: white;
+  background-color: green;
+  
+}
+/*.vdesx li{
+  list-style: none;
+  float:left;
+  text-align: center;
+  padding: 15px;
+}
+
+.vnum li{
+  list-style: none;
+  float:left;
+  text-align: center;
+  padding: 15px;
+}*/

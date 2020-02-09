@@ -31,7 +31,6 @@ def profile():
     return render_template('profile.html', date=joined)
 
 def format_date_joined(sDate):
-    #today = sDate.today()
     jDate = sDate.strftime("%B, %Y")
     return jDate
 
